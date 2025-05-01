@@ -19,6 +19,7 @@ $calendar-width: calc(7 * ($day-size + $padding-size));
 
 html,
 body {
+  margin: 0;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -34,7 +35,6 @@ body {
   width: $calendar-width;
   padding: $padding-size;
   gap: $gap-size;
-  justify-content: center;
   position: relative;
   &__day {
     width: $day-size;
